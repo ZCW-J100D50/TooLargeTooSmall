@@ -26,10 +26,11 @@ public class Main {
             int userInput = input.nextInt();
             guessCount++;
 
-            //if user input and secret num is same, print correct guess
+            //if user input and secret num is same,
             if(userInput == secretNum){
                // When win is true, then the player won the game.
                correct =true;
+            // check if it is large
             } else if (userInput > secretNum) {
                 System.out.println("Too large... try again");
             }else {
